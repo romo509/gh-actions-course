@@ -10,7 +10,7 @@ on:
 
 jobs:
     echo:
-        runs-on: ubuntu:latest
+        runs-on: windows:latest
         steps:
             - name: Show the trigger
               run: echo "I've been trigged by a(n) ${{ github.event_name}} name."
